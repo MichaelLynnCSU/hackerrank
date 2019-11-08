@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CompareTheTriplets {
@@ -26,6 +27,13 @@ public class CompareTheTriplets {
     }
 
     public static void main(String test[]){
+
+        Integer array[] = { 1, 2, 3, 4, 10, 11};
+        List<Integer> newArray = (Arrays.asList(array));
+
+        Integer array2[] = { 1, 4, 3, 4, 9, 11};
+        List<Integer> newArray2 = (Arrays.asList(array2));
+        System.out.println(compareTriplets(newArray,newArray));
 
     }
 
